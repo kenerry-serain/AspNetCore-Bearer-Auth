@@ -10,7 +10,6 @@ using System.Text;
 
 namespace AspNetCore.WebApi.BearerAuth.Controllers
 {
-    [Authorize]
     [Route("api/[controller]")]
     public class AuthController : Controller
     {
